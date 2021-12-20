@@ -94,7 +94,7 @@ const arrays = [
   const objArrString= Object.assign({},arrString)
   // task 20: cho array boolean bên dưới, kiểm tra output của array này là true hoặc false
   const arrBoolean = [true, true, false];
-  
+  const isMatch= arrBoolean.every(item=> item===true)
   // task 21: viết 1 object sử dụng setter & getter để thêm mới value và lấy ra value. key word (Getter, setter)
   var objs = {
     age: 23,

@@ -119,10 +119,12 @@ obj.age = 34;
   };
   
   // task 23:
-  let numb = Math.round(1.4); // => làm tròn lên số bên.  result mong đợi = 2
+  let numb = Math.round(1.4); // => làm tròn lên số bên.  result mong đợi = 1
+  let numb = Math.ceil(1.4); // => làm tròn lên số bên.  result mong đợi = 2
+  let numb = Math.floor(1.4); // => làm tròn lên số bên.  result mong đợi = 1
 
 //   let numb = 1.4; // => làm tròn lên số bên.  result mong đợi = 1
-  
+    
   // task 24: Thực hiện nối chuỗi dữa vào các biến bên dưới. kết quả mong đợi. => 'name: user - age: 21 - class: classAbc'
   let nameUser = "user";
   let age = 21;

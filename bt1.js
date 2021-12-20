@@ -58,7 +58,7 @@ const arrays = [
   // task 7: Tìm ra 1 user có age = 23
   const age23= arr.find(user=>user.age==23)
   // task 8: xử dụng vòng lặp for để lấy ra các user có age >= 23
-  
+  const ageGT23= arr.filter(user=> user.age >= 23)
   // task 9: Dựa vào mảng thông tin bên trên, và mảng ids bên dưới, lọc ra thông tin các user có id như mảng bên dưới.
   const arrayIds = [1, 3];
   const usersByIds= arr.filter(user => arrayIds.includes(user.id))
